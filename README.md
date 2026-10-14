@@ -24,7 +24,7 @@ Open http://localhost:4173. No package installation or build command is required
 
 Jruva's figures are recorded development retrieval results from a small synthetic corpus, not an independent estimate of production answer quality. Private code is not included. The timing boundaries and dataset limitations are shown on the page.
 
-CustomerIQ is a demonstration with uncalibrated scores and incomplete original model provenance. DomainTune's training provenance and comparative evaluation are unfinished; no fine-tuning improvement is claimed.
+CustomerIQ is a demonstration with uncalibrated scores and incomplete original model provenance. DomainTune was evaluated on its 40-example gold set: valid JSON rose from 22.5% to 92.5%, but no output got all five fields right; training counts and logs for that run were not recorded. Jruva's retrieval benchmark is public at github.com/jasirjru/jruva-retrieval-eval.
 
 The portfolio is static and does not access private GitHub data, scrape LinkedIn at runtime, collect visitor submissions or call an LLM. Profile links open the user's existing professional pages. The comparison is a visualization of recorded data, not live inference.
 

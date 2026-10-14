@@ -34,3 +34,5 @@
 .retrieval-node>span,.fusion-node>span{font-size:12px}
 .system-panel small,.dataset-summary small{font-size:11px}
 .education-note>a{display:inline-block;margin:8px 20px 0 0}
+.evaluation-limit a{color:var(--ink);font-weight:500;text-decoration:underline;text-decoration-color:#91aa7d;text-underline-offset:4px;white-space:nowrap}
+.evaluation-limit a:hover{color:var(--accent)}
