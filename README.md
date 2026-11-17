@@ -22,7 +22,7 @@ Open http://localhost:4173. No package installation or build command is required
 
 ## Evidence boundaries
 
-Jruva's figures are recorded development retrieval results from a small synthetic corpus, not an independent estimate of production answer quality. Private code is not included. The timing boundaries and dataset limitations are shown on the page.
+Jruva's figures are recorded development retrieval results from a small synthetic corpus, not an independent estimate of production answer quality. Jruva's source code is public at https://github.com/jasirjru/jruva. The timing boundaries and dataset limitations are shown on the page.
 
 CustomerIQ is a demonstration with uncalibrated scores and incomplete original model provenance. DomainTune was evaluated on its 40-example gold set: valid JSON rose from 22.5% to 92.5%, but no output got all five fields right; training counts and logs for that run were not recorded. Jruva's retrieval benchmark is public at github.com/jasirjru/jruva-retrieval-eval.
 
